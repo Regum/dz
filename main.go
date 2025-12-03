@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Privet")
+	var name string
+	fmt.Scanln(&name)
+	fmt.Printf("Privet: %s", name)
 }

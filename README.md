@@ -1,1 +1,1 @@
-# GARTMAN ROMAN
+# DZ for purple school

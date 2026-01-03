@@ -56,7 +56,6 @@ func convert() {
 	if toCurrency == "" {
 		return
 	}
-
 	// 4. Расчёт и вывод
 	result := calculate(amount, fromCurrency, toCurrency)
 	fmt.Printf("\n %.2f %s = %.2f %s\n", amount, fromCurrency, result, toCurrency)

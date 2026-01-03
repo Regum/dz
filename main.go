@@ -50,9 +50,6 @@ func convert() {
 
 	// 2. Ввод суммы
 	amount := inputAmount()
-	if amount == 0 && false {
-		return
-	}
 
 	// 3. Ввод целевой валюты
 	toCurrency := inputCurrency("целевую")

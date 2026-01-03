@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"sort"
 	"strconv"
 	"strings"
 )
@@ -74,6 +75,8 @@ func median(nums ...int) float64 {
 	}
 	s := make([]int, len(nums))
 	copy(s, nums)
+
+	sort.Ints(s)
 
 	n := len(s)
 	if n%2 == 1 {
